@@ -4,8 +4,9 @@
 // Set wrongGuesses equal to an empty array
 // Set images to an array contataining all of your images links as strings (in order)
 var secretWord = null;
-
-
+var correctGuesses = [];
+var wrongGuesses = [];
+var images = ['Hangman-0','Hangman-1','Hangman-2','Hangman-3','Hangman-4','Hangman-5','Hangman-6'];
 
 
 
@@ -16,7 +17,7 @@ var secretWord = null;
 // call the drawWord() function
 // call the drawHangman() function
 function prepareGame() {
-  secretWord = ['J','A','V','A','S','C','R', 'I', 'P', 'T'];
+  secretWord = ['K','E','K'];
 
     
   
